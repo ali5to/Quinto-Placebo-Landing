@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" />
+	<link rel="stylesheet" href="css/bootstrap.css"/>
+	<link rel="stylesheet" href="css/estilo.css" />
+    <title>Qüinto Placebo</title>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="row justify-content-center justify-content-md-start py-5">
+                <h1 class="text-center">Qüinto Placebo</h1>
+            </div>
+        </div>
+    </header>
+    
+        <section id="hero">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <h2 class="text-center text-md-left title-qp">Descubre Nuestra <br><span>Nueva App</span></h2>
+                        <p class="text-center text-md-left">Ahora podés tener nuestra tienda virtual siempre con vos en tu celular.</p>
+                        <button role="link" onclick="window.location='#descubrir'" class="d-block mx-auto mx-md-0 mt-5 btn-qp">Descubrir</button>
+                    </div>
+                    <div class="col-md-6">
+                        <picture class="col-12 text-center">
+                            <source srcset="img/mockup-hand-cellphone-mob.png" media="(max-width: 767px)"/>
+                            <img src="img/mockup-hand-cellphone.png" class="img-fluid" alt="Tienda virtual en tu celular">
+                        </picture>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <main id="descubrir">
+            <section id="sec-2">
+                <div class="container py-5">
+                    <div class="row align-items-center flex-md-row-reverse py-5 px-5 px-md-0">
+                        <div class="col-md-6 bg-white pb-5 px-5">
+                            <h2 class="title-qp">Ahora <span>comprar</span> en Qüinto es mucho más <span>sencillo</span></h2>
+                            <p>Con nuestra nueva app para dispositivos de escritorio y telefonos inteligentes podes tener siempre a la mano el e-commerce de Qüinto Placebo y realizar tus compras de la manera mas simple y eficaz, sé siempre el primero en aprovechar nuestras promociones y en ver las nuevas colecciones.</p>
+                        </div>
+                        <div class="col-md-6 d-flex justify-content-center">
+                            <img src="img/nosotros-mob.png" alt="Collage estilo Qüinto Placebo" class="img-fluid mt-5">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="sec-3">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center py-5">
+                        <div class="col-md-6 col-lg-9 bg-gray-qp pb-5 px-5">
+                            <h2 class="title-qp">Una App<br> simple y eficaz</h2>
+                            <p>Para descargar nuestra App en tu celular o notebook sigue los siguientes pasos:</p>
+                            <ol>
+                                <li>Introduce <strong>www.quintoplacebo.com</strong> en tu navegador y presiona enter.</li>
+                                <li>Espera que cargue el sitio.</li>
+                                <li>Presiona el icono de descargar que aparecerá justo al lado de la url, en el buscador.</li>
+                                <li>Y voilá! Se descargará nuestra app y aparecerá nuestro icono en el escritorio de tu notebook o en la pantalla principal de tu celular.</li>
+                                <li>Comprá todo lo que quieras!</li>
+                            </ol>
+                        </div>
+                        <div class="col-8 col-md-6 col-lg-3 d-flex justify-content-center">
+                            <div id="slider">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="img/mockup-1.png" alt="App captura de pantalla 1">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/mockup-2.png" alt="App captura de pantalla 2">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="img/mockup-3.png" alt="App captura de pantalla 3">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <aside>
+            <div class="container p-5">
+                <div class="row p-5">
+                    <div class="d-flex flex-column justify-content-center  mx-auto">
+                        <h2 class="mb-5 mt-0 text-center title-qp">Suscríbete a nuestro newsletter</h2> 
+                        <p class="mb-5 text-center">- Entérate a tiempo de nuestras promociones<br> y consigue 25% Off en tu primera compra -</p>
+                        <form id="subscribe" class="d-flex flex-column flex-md-row">
+                            <label class="d-none" for="subscribe-email">Correo electrónico</label>
+                            <input id="subscribe-email" type="email" placeholder="micorreo@mail.com" required>
+                            <input type="submit" value="Suscribirme">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <footer>
+			<ul class="text-center">
+				<li>Qüinto Placebo</li>
+				<li>© 2022 Todos los derechos reservados.</li>
+			</ul>
+			<button id="info-alumno" type="button" class="btn btn-outline-info">Info</button>
+		</footer>
+        <script src="js/jquery-3.5.1.js"></script>
+		<script src="js/bootstrap.bundle.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+        <script src="js/parcial.js"></script>
+</body>
+</html>
